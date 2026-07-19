@@ -714,12 +714,9 @@
 
 # AMD FidelityFX SDK v1.1.4 — Optical Flow, Frame Interpolation, SPD (MIT)
 
-Ryudeck's frame-generation engine (#211) vendors the Vulkan GLSL shaders and shader headers of
-the Optical Flow and Frame Interpolation components (plus the Single Pass Downsampler they use)
-from the AMD FidelityFX SDK, tag v1.1.4 — the last plain-MIT release with the Vulkan backend.
-Vendored files live under `src/Ryudeck.Graphics.Vulkan/Effects/Shaders/FrameGen/` and carry the
-original notice inline; Ryudeck modifications are flagged with `// RYUDECK:` comments (combined
-samplers, image-based counters, and the MV-less frame-interpolation reduction).
+Ryudeck's frame-generation engine uses the Vulkan GLSL shaders and shader headers of the Optical
+Flow and Frame Interpolation components, plus their Single Pass Downsampler, from AMD FidelityFX SDK
+v1.1.4. The distributed copies retain the original notice and identify Ryudeck modifications.
 
 ```
 This file is part of the FidelityFX SDK.
@@ -740,4 +737,27 @@ LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE A
 IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
+
+# Chaos.NaCl — Ed25519 ref10 port (Public Domain / CC0)
+
+Ryudeck uses the single-purpose, public-domain ref10 Ed25519 port from Chaos.NaCl by Christian
+Winnerlein / CodesInChaos, the C# port of Daniel J. Bernstein's ref10 reference implementation from
+SUPERCOP. The distributed subset contains Ed25519 signing, verification, keypair support, and SHA-512;
+the Salsa20, Poly1305, and Curve25519-X25519 components are omitted.
+
+```
+Public domain
+
+C# port + code by Christian Winnerlein (CodesInChaos)
+
+Curve25519 and Ed25519 in c
+        written by Dan Bernstein (djb)
+        public domain
+        from Ref10 in SUPERCOP http://bench.cr.yp.to/supercop.html
+
+SHA512
+        written by Christian Winnerlein (CodesInChaos)
+        public domain
+        directly from the specification
 ```

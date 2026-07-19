@@ -6,6 +6,8 @@ Ryudeck is a Steam Deck-native Switch game backup reader built for one hardware 
 stack: the Deck's Aerith APU, Mesa RADV, Gamescope, and Steam Input. It uses a Vulkan/SPIR-V-only
 renderer and a controller-first interface designed for Game Mode.
 
+This repository hosts Ryudeck releases, public documentation, and license notices.
+
 Ryudeck is in active development. Compatibility varies by game, and a title reaching its menu is
 not treated as playable.
 
