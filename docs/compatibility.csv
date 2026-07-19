@@ -1,0 +1,34 @@
+"title_id","game_name","labels","status","last_updated"
+01006F8002326000,"Animal Crossing: New Horizons",gpu;nvdec;ldn-works,ingame,2026-07-04 00:00:00
+01004A4010FEA000,"Bayonetta 3",gpu;nvdec,ingame,2026-07-04 00:00:00
+0100C1F0051B6000,"Donkey Kong Country: Tropical Freeze",nvdec,playable,2026-07-04 00:00:00
+0100755017EE0000,"FANTASY LIFE i: The Girl Who Steals Time",gpu;slow;regression,ingame,2026-07-14 00:00:00
+01002B00111A2000,"Hyrule Warriors: Age of Calamity",gpu;slow;nvdec,ingame,2026-07-04 00:00:00
+01004D300C5AE000,"Kirby and the Forgotten Land",gpu,ingame,2026-07-04 00:00:00
+010048701995E000,"Luigi's Mansion 2 HD",,playable,2026-07-07 00:00:00
+0100DCA0064A6000,"Luigi's Mansion 3",gpu;slow,ingame,2026-06-30 00:00:00
+01006D0017F7A000,"Mario & Luigi: Brothership",gpu;slow,ingame,2026-06-23 00:00:00
+0100152000022000,"Mario Kart 8 Deluxe",ldn-works,playable,2026-07-04 00:00:00
+010019A01E2F2000,"Metroid Prime 4: Beyond",gpu;crash,menus,2026-07-14 00:00:00
+01003DA010E8A000,"Miitopia",services,ingame,2026-07-07 00:00:00
+0100EA80032EA000,"New Super Mario Bros. U Deluxe",,playable,2026-06-23 00:00:00
+0100000011D90000,"Pokemon Brilliant Diamond",ldn-works,playable,2026-07-07 00:00:00
+0100F43008C44000,"Pokemon Legends: Z-A",gpu;regression,boots,2026-07-14 00:00:00
+01003D200BAA2000,"Pokemon Mystery Dungeon: Rescue Team DX",ldn-untested,playable,2026-07-10 00:00:00
+0100ABF008968000,"Pokemon Sword + Pokemon Sword Expansion Pass",gpu;ldn-works,ingame,2026-06-23 00:00:00
+01001F5010DFA000,"Pokemon Legends: Arceus",ldn-works,playable,2026-07-14 00:00:00
+0100A3D008C5C000,"Pokemon Scarlet",gpu;nvdec;ldn-works,ingame,2026-06-23 00:00:00
+01008F6008C5E000,"Pokemon Violet",gpu;nvdec;ldn-works,ingame,2026-06-30 00:00:00
+010003F003A34000,"Pokemon: Let's Go, Pikachu!",nvdec,playable,2026-07-06 00:00:00
+0100B3F000BE2000,"Pokken Tournament DX",ldn-untested,playable,2026-07-14 00:00:00
+01007A3009184000,"Princess Peach: Showtime!",gpu,playable,2026-07-14 00:00:00
+010015100B514000,"Super Mario Bros. Wonder",,playable,2026-07-04 00:00:00
+010099C022B96000,"Super Mario Galaxy",slow,ingame,2026-07-14 00:00:00
+0100FD8022DAA000,"Super Mario Galaxy 2",crash,boots,2026-07-14 00:00:00
+0100000000010000,"Super Mario Odyssey",nvdec,playable,2026-07-04 00:00:00
+01006A800016E000,"Super Smash Bros. Ultimate",ldn-works,playable,2026-07-04 00:00:00
+01008CF01BAAC000,"The Legend of Zelda: Echoes of Wisdom",nvdec,playable,2026-06-23 00:00:00
+0100F2C0115B6000,"The Legend of Zelda: Tears of the Kingdom",gpu;slow,ingame,2026-07-06 00:00:00
+010051F0207B2000,"Tomodachi Life: Living the Dream",gpu;ldn-untested,playable,2026-07-14 00:00:00
+010074F013262000,"Xenoblade Chronicles 3",gpu;nvdec,playable,2026-07-04 00:00:00
+01006000040C2000,"Yoshi's Crafted World",,playable,2026-07-07 00:00:00

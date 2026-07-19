@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Game compatibility
+    url: https://github.com/deucebucket/ryudeck/wiki/Compatibility
+    about: Check whether a title is known to run before filing.
+  - name: Setup & troubleshooting
+    url: https://github.com/deucebucket/ryudeck/wiki
+    about: Install, keys/firmware, and common fixes.
+  - name: Questions & discussion
+    url: https://github.com/deucebucket/ryudeck/discussions
+    about: Ask, share results, or chat — not for bug reports.
