@@ -275,11 +275,9 @@ These are the changes added after v0.1.23.
 - Tears of the Kingdom: lens-flare removal and targeting depth-of-field off are available
   now (opt-in, experimental). Dynamic-quality-reduction and draw-distance toggles are wired
   and gated to verified game builds.
-- New developer tool to dump a title's decrypted executable, for building these maps.
-
 **Performance**
 - JIT now fuses ARM `TST`/`ANDS` flag tests directly into a native x86 compare-and-branch
-  instead of materializing condition flags (#206).
+  instead of materializing condition flags.
 - Render thread runs leaner: dropped a per-command atomic on the hot loop and gated leftover
   fork diagnostics off the per-draw and per-texture paths.
 
@@ -306,8 +304,8 @@ These are the changes added after v0.1.23.
 **Experimental (opt-in, off by default)**
 - Adaptive resolution scaling that trades sharpness in light scenes for stability in heavy
   ones, behind a flag for on-device testing.
-- Gated groundwork for GPU compute de-swizzle (#204) and graphics-pipeline-library
-  fast-link (#205), each behind an on-device correctness gate.
+- Gated groundwork for GPU compute de-swizzle and graphics-pipeline-library fast-link, each behind
+  an on-device correctness gate.
 - Expanded built-in CPU/GPU frame profiling to pinpoint per-frame cost.
 
 ## v0.1.18 (2026-06-28)
